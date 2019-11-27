@@ -53,3 +53,5 @@ app.use((error, req, res, next) => {
 });*/
 
 module.exports = app;
+app.listen(8000);
+console.log('Server Listening at: 8000');
